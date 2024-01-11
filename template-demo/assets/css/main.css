@@ -1,0 +1,493 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 100px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  width: 100%;
+}
+header nav .logo img {
+  width: 25%;
+}
+header nav .menu {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header nav .menu .list {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+header nav .menu .list li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+#city {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  background-image: url("/assets/images/dubrovnik-1-400x250 (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#city .backgraund-colorimg {
+  width: 100%;
+  min-height: 650px;
+  background-color: rgba(0, 0, 0, 0.356);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#city .backgraund-colorimg .rome {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#city .backgraund-colorimg .rome .lineheader {
+  width: 2px;
+  height: 100px;
+  background-color: white;
+}
+#city .backgraund-colorimg .rome .text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#city .backgraund-colorimg .rome .text span {
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: 15px;
+  color: white;
+}
+#city .backgraund-colorimg .rome .text h1 {
+  font-size: 61px;
+  line-height: 57px;
+  font-family: Quicksand;
+  font-weight: 500;
+  color: white;
+}
+#city .backgraund-colorimg .rome .text .linerfooter {
+  width: 2px;
+  height: 100px;
+  background-color: white;
+}
+#city .backgraund-colorimg .rome .text button {
+  padding: 15px 20px;
+}
+
+#iconsection {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#iconsection .icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#iconsection .icon .organizer {
+  font-size: 40px;
+  min-height: 100px;
+  color: #4484ce;
+}
+#iconsection .icon .travel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#iconsection .icon .travel h2 {
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #222222;
+  font-family: Quicksand;
+}
+#iconsection .icon .travel p {
+  font-size: 20px;
+  font-family: Quicksand;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+#beach-of-the-year {
+  width: 100%;
+  min-height: 700px;
+  background-color: #efefef;
+  padding-top: 20px;
+}
+#beach-of-the-year .the-beach {
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#beach-of-the-year .the-beach h4 {
+  font-size: 32px;
+  font-family: Quicksand;
+  font-weight: 500;
+  line-height: 42px;
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+#beach-of-the-year .the-beach p {
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 15px;
+  color: #666666;
+  font-family: Quicksand;
+}
+#beach-of-the-year .cart {
+  width: 100%;
+}
+#beach-of-the-year .cart img {
+  width: 100%;
+}
+
+#popular-Destinations {
+  width: 100%;
+  min-height: 700px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#popular-Destinations .popular {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#popular-Destinations .popular h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35px;
+  font-family: Quicksand;
+}
+#popular-Destinations .popular p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Quicksand;
+}
+#popular-Destinations .destinations img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#canals-of-Amsterdam {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/amsterdam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+}
+#canals-of-Amsterdam .canals {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+}
+#canals-of-Amsterdam .canals h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35px;
+  font-family: Quicksand;
+}
+#canals-of-Amsterdam .canals p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Quicksand;
+}
+
+#news-on-travelling {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#news-on-travelling .travelling {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#news-on-travelling .travelling h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 35px;
+  font-family: Quicksand;
+}
+#news-on-travelling .travelling p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Quicksand;
+}
+#news-on-travelling .news {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#news-on-travelling .news button {
+  padding: 12px 30px;
+  background-color: #fbce00;
+  font-size: 15px;
+  font-weight: 500;
+  border-style: none;
+}
+
+#products {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product .boxDiv {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#products #product .wishlist {
+  padding: 7px 17px;
+  color: white;
+  font-size: 12px;
+  border-color: #d1a000;
+  background-color: #d1a400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#products #product .wishlist:hover {
+  background-color: white;
+  color: black;
+}
+#products #product .addtobasket {
+  padding: 7px 17px;
+  color: white;
+  font-size: 12px;
+  border-color: #d15000;
+  background-color: #d16500;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product .addtobasket:hover {
+  background-color: white;
+  color: black;
+}
+#products .button {
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+#products .button #pages {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 7px 17px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  min-height: 100px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #688494;
+}
+#header nav {
+  width: 100%;
+}
+#header nav .logo img {
+  width: 25%;
+}
+#header nav .menu {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#header nav .menu .list {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+#header nav .menu .list li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+#product-sec {
+  min-height: 665px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#product-sec #getProduct {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 20px;
+}
+#product-sec #getProduct .box {
+  padding-bottom: 20px;
+}
+#product-sec #getProduct button {
+  background-color: #d1a000;
+  border-radius: 20px;
+  padding: 8px 17px;
+  font-size: 12px;
+  color: white;
+}
+#product-sec #getProduct button:hover {
+  background-color: black;
+  color: white;
+}
+
+.wishlistheader {
+  width: 100%;
+  min-height: 100px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #688494;
+}
+.wishlistheader nav {
+  width: 100%;
+}
+.wishlistheader nav .logo img {
+  width: 25%;
+}
+.wishlistheader nav .menu {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.wishlistheader nav .menu .list {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.wishlistheader nav .menu .list li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+#wishlisted {
+  min-height: 665px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#wishlisted #wishList {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 20px;
+}
+#wishlisted #wishList .box {
+  padding-bottom: 20px;
+}
+#wishlisted #wishList button {
+  background-color: #d1a000;
+  border-radius: 20px;
+  padding: 8px 17px;
+  font-size: 12px;
+  color: white;
+}
+#wishlisted #wishList button:hover {
+  background-color: black;
+  color: white;
+}
